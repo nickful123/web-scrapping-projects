@@ -37,8 +37,8 @@ date_str = today.strftime("%d_%m_%Y")
 ###################### Workig Code to write to excel ##############################
 
 ### go out and parse the country list to update the countryParse dictionary ###
-edge_path = "D:\\Documents\\Programming\\msedgedriver.exe"
-driver = webdriver.Edge(edge_path)
+edge_path = #Add web driver file path
+driver = #webdriver.Edge(edge_path)
 wait = WebDriverWait(driver, 15)
 urls = ["https://www.dekudeals.com/hottest"]
 
@@ -156,8 +156,8 @@ print("Please wait")
 
 
 ##################### Parse start ##########################
-edge_path = "D:\\Documents\\Programming\\msedgedriver.exe"
-driver = webdriver.Edge(edge_path)
+edge_path = #Add web driver file path
+driver = #webdriver.Edge(edge_path)
 wait = WebDriverWait(driver, 15)
 urls = ["https://www.dekudeals.com/hottest"]
 cookie_accepted = False
